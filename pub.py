@@ -42,3 +42,16 @@ if __name__ == '__main__':
         client.publish("kdvasque/ipinfo", f"{ip_address}")
         print("Publishing ultrasound range, stay alert!")
         time.sleep(4)
+        
+        #get date and time 
+        """your code here"""
+        now = datetime.now()
+        #publish date and time in their own topics
+        """your code here"""
+        client.publish("kdvasque/dateInfo", f"{now.date()}")
+        print("Publishing date info")
+        time.sleep(4)
+        
+        client.publish("kdvasque/timeInfo", f"{now.time()}")
+        print("Publishing time info")
+        time.sleep(4)
