@@ -39,6 +39,6 @@ if __name__ == '__main__':
 
     while True:
         #replace user with your USC username in all subscriptions
-        client.publish("kdvasque/ipinfo", f"{ultrasound_range}")
+        client.publish("kdvasque/ipinfo", f"{ip_address}")
         print("Publishing ultrasound range, stay alert!")
         time.sleep(4)
