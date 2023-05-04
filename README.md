@@ -1,8 +1,8 @@
-# ParkingSensor
+## ParkingSensor
 EE 250 Final Project 
 
 
-#Team Members:
+Team Members:
  1. Gila Kohanbash
  2. Karla Vasquez
 
@@ -16,3 +16,7 @@ Now open up a terminal:
 
 
 Libraries used: time, paho.mqtt.client, RPi.GPIO, grove_rgb_lcd
+
+
+Link to Video: https://youtu.be/LysCf5mxK0s
+
